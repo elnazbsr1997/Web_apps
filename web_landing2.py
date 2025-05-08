@@ -4,7 +4,7 @@ import datetime
 import pyodbc
 
 # === ACCESS DATABASE SETUP ===
-DB_PATH = r"C:\\Users\\ebashir\\OneDrive - Iowa Department of Transportation\\Documents\\Traffic mngmnt\\work_log.accdb"
+DB_PATH = r"work_log.accdb"
 CONN_STR = (
     r'DRIVER={Microsoft Access Driver (*.mdb, *.accdb)};'
     rf'DBQ={DB_PATH};'
